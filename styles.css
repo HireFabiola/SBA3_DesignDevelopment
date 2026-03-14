@@ -9,3 +9,7 @@
 .btn.customButtonGray{
     color: hsl(233, 8%, 62%);
 }
+
+,custonViewHeight{
+    height: 33vh;
+}
