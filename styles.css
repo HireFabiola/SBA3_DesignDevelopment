@@ -1,15 +1,17 @@
 .btn.customButtonGreen {
     --bs-btn-bg: transparent;
-    background-image:linear-gradient(180deg, #32d25d, #2cb6d8);
+    background-image: linear-gradient(180deg, #32d25d, #2cb6d8);
     --bs-btn-border-color: #2cb6d8;
     --bs-btn-color: #fff;
     --bs-btn-border-radius: 50px;
 }
 
-.btn.customButtonGray{
+.btn.customButtonGray {
     color: hsl(233, 8%, 62%);
 }
 
-,custonViewHeight{
-    height: 33vh;
+.customViewHeight {
+    max-height: 33vh;
+    width: 100%;
+    object-fit: cover;
 }
