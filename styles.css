@@ -5,3 +5,7 @@
     --bs-btn-color: #fff;
     --bs-btn-border-radius: 50px;
 }
+
+.btn.customButtonGray{
+    color: hsl(233, 8%, 62%);
+}
