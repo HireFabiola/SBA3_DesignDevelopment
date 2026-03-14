@@ -20,3 +20,6 @@ body{
    font-family: "Public Sans", sans-serif !important;
 }
 
+.customDarkText{
+    color: hsl(233, 26%, 24%);
+}
