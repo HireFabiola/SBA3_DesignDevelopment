@@ -23,3 +23,7 @@ body{
 .customDarkText{
     color: hsl(233, 26%, 24%);
 }
+
+.customRightMargin{
+    margin-right: -50vw; padding-right: 50vw;
+}
