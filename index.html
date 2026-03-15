@@ -42,7 +42,8 @@
 
 <body>
 
-    <img src="images/bg-intro-desktop.svg" 
+  <!--Affix background to upper right edge-->
+    <img src="images/CroppedUpperBGPic.png"
        class="position-absolute top-0 end-0" 
        style="z-index: -1; max-width: 50%; height: auto;" 
        alt="Abstract Background">
@@ -86,13 +87,33 @@
 
           <div class="col-6">
             <div class="image-container position-relative">
-              <div class="card-img-overlay d-flex justify-content-end">
-                <img src="images/image-mockups.png" class="img-fluid bg-transparent" alt="Abstract Background Image">
+              <img src="images/image-mockups.png" class="card-img-overlay"  class="bg-transparent" alt="Abstract Background Image">
               </div>
             </div>
           </div>
         </div>
       </section>
+
+
+
+          </div>
+        </div>
+      </section>
+      
+      <!-- Rest of your sections... -->
+    </div>
+  </main>
+</body>
+Use code with caution.
+
+Why this works:
+z-index: -1: This puts the abstract background behind your text and navigation so they don't overlap awkwardly.
+position-absolute on the Image: By removing it from the row, the image floats to the top-right corner of the screen without pushing your header or hero text down.
+Removing card-img-overlay: This class forces an image to fill its parent container entirely, which often distorts img-fluid behavior. Standard Bootstrap utility classes (d-flex, justify-content-end) are better here.
+Quick Tip: Notice I changed your col-6 to col-lg-6. This ensures that on small mobile screens, the image and text will stack vertically instead of getting squashed!
+Do you want the abstract background to stay put when you scroll, or should it move up with the page?
+
+
 
 
 
