@@ -261,6 +261,18 @@
       </div>
     </footer>
   </main>
+
+  <!--Script to make modal disappear upon increasing screen-->
+  <script>
+    const mobileMenuModal = document.getElementById('mobileMenuModal');
+  const modalInstance = new bootstrap.Modal(mobileMenuModal);
+
+  window.addEventListener('resize', function () {
+    if (window.innerWidth >= 768) {  // Bootstrap md breakpoint
+      modalInstance.hide();
+    }
+  });
+</script>
 </body>
 
 </html>
