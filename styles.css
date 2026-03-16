@@ -53,3 +53,7 @@ header {
   position: relative;
   z-index: 1000; 
 }
+
+.customFooterBGColor{
+  background-color:hsl(233, 26%, 24%);
+}
