@@ -30,29 +30,6 @@ body{
     margin-right: -50vw; padding-right: 50vw;
 }
 
-.hero-image-container {
-  position: relative; /* This is the anchor point for the phones */
-  height: 100%;       /* Ensures it fills the column height */
-}
-
-.off-screen-phones {
-  position: absolute;  /* Rips it out of the container flow */
-  top: 50%;            /* Centers it vertically */
-  left: 0;             /* Starts at the left of the col-6 */
-  transform: translateY(-30%) translateX(2%); /* The "Nudge" to the right */
-  z-index: 5;         /* Sits ON TOP of the background image (-1) */
-     /* Forces it to be large enough to go off-screen */
-}
-
-/* Optional: Hide horizontal scrollbar if the image goes too far */
-body {
-  overflow-x: hidden;
-}
-
-header {
-  position: relative;
-  z-index: 1000; 
-}
 
 .customFooterBGColor{
   background-color:hsl(233, 26%, 24%);
